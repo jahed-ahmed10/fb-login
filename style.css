@@ -1,0 +1,143 @@
+  @font-face {
+    font-family: ur;
+    src: url(./Helvetica.ttf);
+/* *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  } */
+}
+html,body{
+  height:100% ;
+  width: 100%;
+  /* background: red; */
+  overflow: hidden;
+}
+#conteiner {
+  display: flex;
+  /* justify-content: space-around; */
+}
+#conteiner .left{
+  height: 50vh;
+  width: 50vw;
+  /* background-color: rebeccapurple; */
+  margin-top: 26vh;
+  margin-left: 11vw;
+}
+.left img{
+  position: relative;
+  height: 17vh;
+  /* width: 30vh; */
+}
+#conteiner .left .text{
+  font-size: 4.9vh;
+  margin-left:2.3vw;
+  font-family: ur;
+  font-weight: 100;
+  margin-top: -2vh;
+  width: 45vw;
+}
+#conteiner #right{
+  position: relative;
+  display: block;
+  height: 50vh;
+  width: 28vw;
+  background-color: rgb(255,255,255);
+  border: 1px solod black;
+  border-radius:1vw;
+  padding: 3vh;
+  margin: 1vw;
+  margin-top: 11vw;
+  box-shadow: 3px 3px 14px;
+}
+#input{
+  display: flex;
+  flex-direction: column;
+  gap: 1vw;
+}
+#input input{
+  border: 0.5px solid rgba(0, 0, 0, 0.219);
+  /* border: none; */
+  border-radius: 6px;
+  padding: 3vh;
+}
+#cont input::placeholder{
+  /* color: lime; */
+  font-size: 2.5vh;
+}
+
+#right .button1{
+  margin:  2vh 0vh;
+}
+.button1 button{
+  height: 7vh;
+  width: 100%;
+  font-size: 1.5vw;
+  border: 1px solid rgba(0, 0, 0, 0.192);
+  border-radius: 8px;
+  background-color: rgb(24,119,242);
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.button1 button:hover{
+  background-color: rgba(24, 118, 242, 0.904);
+}
+
+.button2 button{
+  height: 7vh;
+  width: 16vw;
+  position: relative;
+  left: 13vh;
+  top: 3vh;
+  font-size: 1.5vw;
+  border: 1px solid rgba(0, 0, 0, 0.13);
+  border-radius: 8px;
+  background-color: rgb(66,183,42);
+  color: white;
+  font-weight: 500;
+  font-family: ur;
+  cursor: pointer;
+}
+.button2 button:hover{
+  background-color: rgba(66, 183, 42, 0.911);
+}
+#vula a{
+  position: relative;
+  font-family: ur;
+  font-size: 2.3vh;
+  left: 18vh ;
+  text-decoration: none;
+}
+#vula a:hover{
+  text-decoration: underline;
+}
+#out{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  position: relative;
+  width: 100%;
+  gap: 1vh;
+}
+#out a,p{
+  position: relative;
+  right: 20vh;
+}
+
+#out a{
+  position: relative;
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+  font-size: 2.6vh;
+}
+#out a:hover{
+  text-decoration: underline;
+}
+#main{
+  /* background-color: red; */
+  height: 100%;
+  width: 100%;
+}

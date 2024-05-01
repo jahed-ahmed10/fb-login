@@ -1,0 +1,32 @@
+@media only screen and (max-width:600px) {
+  #conteiner{
+    display: block;
+  }
+  #conteiner .left{
+    /* background-color: red; */
+    width: 60%;
+    margin-left: 25vh;
+    margin-top: 0;
+  }
+  #conteiner .left .text{
+    width: 100%;
+  }
+
+  #conteiner #right{
+    margin-top: -10vw;
+    margin-left: 26vw;
+    height:50vh;
+    width: 50vw;
+    /* background-color: red; */
+  }
+  .button1 button{
+    font-size: 2.5vw;
+  }
+  .button2 button{
+    width: 28vw;
+    font-size: 2.5vw;
+  }
+  #out{
+    margin-left: -3;
+  }
+}
